@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <material name="red">
+        <color rgba="1 0 0 1.0" />
+    </material>
+
+    <material name="green">
+        <color rgba="0 1 0 1.0" />
+    </material>
+
+    <material name="blue">
+        <color rgba="0 0 1 1.0" />
+    </material>
+
+    <material name="black">
+        <color rgba="0 0 0 1" />
+    </material>
+
+    <material name="white">
+        <color rgba="1 1 1 1" />
+    </material>
+
+    <material name="grey">
+        <color rgba="0.5 0.5 0.5 1" />
+    </material>
+
+    <material name="dark_grey">
+        <color rgba="0.2 0.2 0.2 1" />
+    </material>
+
+    <material name="light_grey">
+        <color rgba="0.8 0.8 0.8 1" />
+    </material>
+
+    <material name="yellow">
+        <color rgba="1 1 0 1" />
+    </material>
+
+    <material name="orange">
+        <color rgba="1 0.5 0 1" />
+    </material>
+
+    <material name="purple">
+        <color rgba="0.6 0 0.8 1" />
+    </material>
+
+    <material name="pink">
+        <color rgba="1 0.4 0.7 1" />
+    </material>
+
+    <material name="cyan">
+        <color rgba="0 1 1 1" />
+    </material>
+
+    <material name="brown">
+        <color rgba="0.4 0.2 0 1" />
+    </material>
+
+    <material name="dark_red">
+        <color rgba="0.5 0 0 1" />
+    </material>
+
+    <material name="dark_green">
+        <color rgba="0 0.4 0 1" />
+    </material>
+
+    <material name="dark_blue">
+        <color rgba="0 0 0.5 1" />
+    </material>
+
+    <material name="gold">
+        <color rgba="1 0.84 0 1" />
+    </material>
+
+    <material name="silver">
+        <color rgba="0.75 0.75 0.75 1" />
+    </material>
+
+    <material name="lime">
+        <color rgba="0.6 1 0 1" />
+    </material>
+
+    <material name="teal">
+        <color rgba="0 0.5 0.5 1" />
+    </material>
+
+    <material name="magenta">
+        <color rgba="1 0 1 1" />
+    </material>
+
+    <material name="indigo">
+        <color rgba="0.29 0 0.51 1" />
+    </material>
+
+    <material name="violet">
+        <color rgba="0.56 0 1 1" />
+    </material>
+
+    <material name="coral">
+        <color rgba="1 0.38 0.28 1" />
+    </material>
+
+    <material name="salmon">
+        <color rgba="0.98 0.5 0.45 1" />
+    </material>
+
+    <material name="crimson">
+        <color rgba="0.86 0.08 0.24 1" />
+    </material>
+
+    <material name="maroon">
+        <color rgba="0.5 0 0.25 1" />
+    </material>
+
+    <material name="olive">
+        <color rgba="0.5 0.5 0 1" />
+    </material>
+
+    <material name="dark_olive">
+        <color rgba="0.33 0.42 0.18 1" />
+    </material>
+
+    <material name="forest_green">
+        <color rgba="0.13 0.55 0.13 1" />
+    </material>
+
+    <material name="mint">
+        <color rgba="0.6 1 0.8 1" />
+    </material>
+
+    <material name="turquoise">
+        <color rgba="0.25 0.88 0.82 1" />
+    </material>
+
+    <material name="sky_blue">
+        <color rgba="0.53 0.81 0.98 1" />
+    </material>
+
+    <material name="navy">
+        <color rgba="0 0 0.5 1" />
+    </material>
+
+    <material name="royal_blue">
+        <color rgba="0.25 0.41 0.88 1" />
+    </material>
+
+    <material name="steel_blue">
+        <color rgba="0.27 0.51 0.71 1" />
+    </material>
+
+    <material name="powder_blue">
+        <color rgba="0.69 0.88 0.9 1" />
+    </material>
+
+    <material name="lavender">
+        <color rgba="0.71 0.49 0.86 1" />
+    </material>
+
+    <material name="plum">
+        <color rgba="0.56 0.27 0.52 1" />
+    </material>
+
+    <material name="hot_pink">
+        <color rgba="1 0.08 0.58 1" />
+    </material>
+
+    <material name="deep_pink">
+        <color rgba="1 0 0.5 1" />
+    </material>
+
+    <material name="peach">
+        <color rgba="1 0.8 0.64 1" />
+    </material>
+
+    <material name="beige">
+        <color rgba="0.96 0.96 0.86 1" />
+    </material>
+
+    <material name="ivory">
+        <color rgba="1 1 0.94 1" />
+    </material>
+
+    <material name="cream">
+        <color rgba="1 0.99 0.82 1" />
+    </material>
+
+    <material name="tan">
+        <color rgba="0.82 0.71 0.55 1" />
+    </material>
+
+    <material name="sand">
+        <color rgba="0.93 0.84 0.69 1" />
+    </material>
+
+    <material name="khaki">
+        <color rgba="0.76 0.69 0.57 1" />
+    </material>
+
+    <material name="sienna">
+        <color rgba="0.53 0.18 0.09 1" />
+    </material>
+
+    <material name="chocolate">
+        <color rgba="0.48 0.25 0.01 1" />
+    </material>
+
+    <material name="saddle_brown">
+        <color rgba="0.55 0.27 0.07 1" />
+    </material>
+
+    <material name="rust">
+        <color rgba="0.72 0.25 0.05 1" />
+    </material>
+
+    <material name="burnt_orange">
+        <color rgba="0.8 0.33 0.0 1" />
+    </material>
+
+    <material name="amber">
+        <color rgba="1 0.75 0 1" />
+    </material>
+
+    <material name="yellow_green">
+        <color rgba="0.6 0.8 0.2 1" />
+    </material>
+
+    <material name="chartreuse">
+        <color rgba="0.5 1 0 1" />
+    </material>
+
+    <material name="neon_green">
+        <color rgba="0.22 1 0.08 1" />
+    </material>
+
+    <material name="neon_blue">
+        <color rgba="0.12 0.56 1 1" />
+    </material>
+
+    <material name="neon_pink">
+        <color rgba="1 0.1 0.7 1" />
+    </material>
+
+    <material name="neon_yellow">
+        <color rgba="0.9 1 0 1" />
+    </material>
+
+    <material name="neon_orange">
+        <color rgba="1 0.4 0 1" />
+    </material>
+
+    <material name="bronze">
+        <color rgba="0.8 0.5 0.2 1" />
+    </material>
+
+    <material name="copper">
+        <color rgba="0.72 0.45 0.2 1" />
+    </material>
+
+    <material name="rose_gold">
+        <color rgba="0.9 0.6 0.55 1" />
+    </material>
+
+    <material name="off_white">
+        <color rgba="0.94 0.94 0.94 1" />
+    </material>
+
+    <material name="charcoal">
+        <color rgba="0.21 0.27 0.31 1" />
+    </material>
+
+    <material name="slate">
+        <color rgba="0.44 0.5 0.56 1" />
+    </material>
+
+    <material name="midnight_blue">
+        <color rgba="0.1 0.1 0.44 1" />
+    </material>
+
+    <material name="ocean_blue">
+        <color rgba="0 0.47 0.75 1" />
+    </material>
+
+    <material name="ice_blue">
+        <color rgba="0.78 0.93 1 1" />
+    </material>
+
+</robot>
