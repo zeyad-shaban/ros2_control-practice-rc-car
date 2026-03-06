@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
 <robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
-    <ros2_control name="MyRobotHWInterface" type="system">
+    <ros2_control name="GazeboSystem" type="system">
 
         <hardware>
-            <plugin>mock_components/GenericSystem</plugin>
-            <param name="calculate_dynamics">true</param>
+            <plugin>gz_ros2_control/GazeboSimSystem</plugin>
         </hardware>
 
         <joint name="base_left_wheel_joint">
