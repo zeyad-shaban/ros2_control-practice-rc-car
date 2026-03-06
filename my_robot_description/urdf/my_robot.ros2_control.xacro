@@ -1,17 +1,23 @@
-<ros2_control name="MyRobotHWInterface" type="system">
-    <plugin>mock_component/GenericSystem</plugin>
-    <param name="calculate_dynamics">true</param>
-    
-    <joint name="base_left_wheel_joint">
-        <command_interface name="velocity" />
-        <state_interface name="position" />
-        <state_interface name="velocity" />
-    </joint>
-    
-    <joint name="base_right_wheel_joint">
-        <command_interface name="velocity" />
-        <state_interface name="position" />
-        <state_interface name="velocity" />
-    </joint>
-    
-</ros2_control>
+<?xml version="1.0"?>
+<robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <ros2_control name="MyRobotHWInterface" type="system">
+
+        <hardware>
+            <plugin>mock_components/GenericSystem</plugin>
+            <param name="calculate_dynamics">true</param>
+        </hardware>
+
+        <joint name="base_left_wheel_joint">
+            <command_interface name="velocity" />
+            <state_interface name="position" />
+            <state_interface name="velocity" />
+        </joint>
+
+        <joint name="base_right_wheel_joint">
+            <command_interface name="velocity" />
+            <state_interface name="position" />
+            <state_interface name="velocity" />
+        </joint>
+
+    </ros2_control>
+</robot>
