@@ -6,4 +6,19 @@
             <parameters>$(find my_robot_bringup)/config/my_robot_controllers.yaml</parameters>
         </plugin>
     </gazebo>
+
+    <gazebo reference="left_wheel_link">
+        <mu1>1.0</mu1>
+        <mu2>1.0</mu2>
+    </gazebo>
+
+    <gazebo reference="right_wheel_link">
+        <mu1>1.0</mu1>
+        <mu2>1.0</mu2>
+    </gazebo>
+
+    <gazebo reference="caster_link">
+        <mu1>0.01</mu1>
+        <mu2>0.01</mu2>
+    </gazebo>
 </robot>
